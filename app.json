@@ -4,7 +4,8 @@
     "pages/detail_classify/detail_classify",
     "pages/cook/cook",
     "pages/search/search",
-    "pages/food_list/food_list"
+    "pages/food_list/food_list",
+    "pages/my_like/my_like"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -24,8 +25,8 @@
         "selectedIconPath": "./images/tabbar/tabBar_essence_icon.png"
       },
       {
-        "pagePath": "pages/index/index",
-        "text": "我的",
+        "pagePath": "pages/my_like/my_like",
+        "text": "你我他",
         "iconPath": "./images/tabbar/tabBar_friendTrends_click_icon.png",
         "selectedIconPath": "./images/tabbar/tabBar_friendTrends_icon.png"
       }
