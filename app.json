@@ -25,7 +25,7 @@
       },
       {
         "pagePath": "pages/index/index",
-        "text": "我的",
+        "text": "我们",
         "iconPath": "./images/tabbar/tabBar_friendTrends_click_icon.png",
         "selectedIconPath": "./images/tabbar/tabBar_friendTrends_icon.png"
       }
