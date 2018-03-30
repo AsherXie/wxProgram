@@ -1,0 +1,32 @@
+.groom_item {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 10rpx
+}
+
+.groom_item image {
+  width: 200rpx;
+}
+
+.groom_item .groom_title {
+  font-size: 30rpx;
+  line-height: 0;
+  margin-left: 14rpx;
+}
+
+.groom .user_count{
+  padding: 5rpx 10rpx;
+  background: #ccc;
+  border-radius: 30rpx;
+  font-size: 26rpx;
+  margin-left: 10rpx;
+}
+
+.groom .groom_decrible{
+  width: 70%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}

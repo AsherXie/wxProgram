@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail_classify/detail_classify",
+    "pages/cook/cook",
+    "pages/search/search",
+    "pages/food_list/food_list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "爱家菜谱",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#8C8481",
+    "selectedColor": "#515151",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./images/tabbar/tabBar_essence_click_icon.png",
+        "selectedIconPath": "./images/tabbar/tabBar_essence_icon.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "更多",
+        "iconPath": "./images/tabbar/tabBar_friendTrends_click_icon.png",
+        "selectedIconPath": "./images/tabbar/tabBar_friendTrends_icon.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+<view class='groom'>
+  <view class='groom_item' wx:for="{{groom_list}}"  data-id='{{item.id}}' bindtap='go_cook'>
+    <view>
+      <image src="{{item.pic}}" mode='widthFix'></image>
+    </view>
+
+    <view class='groom_decrible'>
+      <text class='groom_title'>{{item.name}}</text>
+      <view class='material'>
+        <text class='user_count'>{{item.peoplenum}}</text>
+        <text class='user_count'>{{item.preparetime}}</text>
+        <text class='user_count' wx:for='{{item.tag}}'>{{item}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view style='positon:fixed;top:100px;text-align:center' wx:if='{{info}}'>没有信息</view>

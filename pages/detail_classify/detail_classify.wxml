@@ -1,0 +1,8 @@
+<view class='backGround' style='height:{{windowH}}px;width:{{windowW}}px;background:url("../../images/other/login_register_background.png")'>
+  <!-- <image class='background_img' src='../../images/other/login_register_background.png'></image> -->
+  <view class='box'>
+    <view class='classify_detail' wx:for="{{classify_list}}" data-hi='{{item.classid}}' style='background:{{item.color}}' bindtap='go_list'>
+      {{item.name}}
+    </view>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+<import src='../template/search_tem.wxml' />
+<template is="search"></template>
+
+<view class='near_search clearfix'>
+  <view>最近搜索</view>
+  <text wx:for='{{near_list}}' data-hi="{{item}}">{{item}}</text>
+</view>
+
+<view class='hot'>
+  <view>热门搜索</view>
+  <text wx:for='{{hot_list}}' data-hi='{{item}}'>{{item}}</text>
+</view>
+
+<toast hidden='{{is}}' duration="500">搜索内容不能为空</toast>

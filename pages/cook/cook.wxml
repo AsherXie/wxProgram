@@ -1,0 +1,44 @@
+<view class='name'>
+  {{data_list.name}}
+</view>
+
+<view class='summary'>
+  <view class='top_line'>
+    <view class='cool_circle'></view>
+    <view class='cook_title'>美味简介</view>
+  </view>
+  <view class='summary_content'>{{data_list.content}}</view>
+</view>
+
+<view class='use_thingth'>
+  <view class='top_line'>
+    <view class='cool_circle'></view>
+    <view class='cook_title'>所需用料</view>
+  </view>
+
+  <view class='content' style='margin:20px auto'>
+    <view wx:for='{{data_list.material}}' class='thingth'>
+      <text>{{item.mname}}</text>
+      <text>{{item.amount}}</text>
+    </view>
+  </view>
+</view>
+
+<view class='classify_cook' style='margin-bottom:20px'>
+
+  <view class='top_line'>
+    <view class='cool_circle'></view>
+    <view class='cook_title'>所需用料</view>
+  </view>
+  <view class='cook_make'>
+    <view wx:for='{{data_list.process}}' style='margin-bottom:10px' wx:for-index='idx'>
+      <image src='{{item.pic}}' mode='widthFix'></image>
+      <view>{{idx+1}}、{{item.pcontent}}</view>
+    </view>
+  </view>
+</view>
+
+<view class='cook_bottom'>
+  <view style='background: orange;'>收藏</view>
+  <view style='background: deeppink;'>分享</view>
+</view>

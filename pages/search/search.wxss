@@ -1,0 +1,42 @@
+@import '../template/search_tem.wxss';
+
+.near_search {
+  padding: 10px;
+  font-size: 27rpx;
+}
+
+.clearfix::after {
+  content: '';
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  display: block
+}
+
+.near_search>view {
+  margin-bottom: 30rpx;
+}
+
+.near_search>text {
+  float: left;
+}
+
+.hot {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 27rpx;
+  margin-bottom: 30rpx;
+}
+
+.hot>view {
+  margin-bottom: 30rpx;
+}
+
+.hot>text, .near_search>text {
+  padding: 10rpx;
+  background: #ccc;
+  text-align: center;
+  border-radius: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 30rpx;
+}

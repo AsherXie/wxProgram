@@ -1,0 +1,6 @@
+<template name='search'>
+  <view class='top_search'>
+    <input placeholder='输入您要查找的菜谱类型' bindinput='set_data'></input>
+    <text bindtap='search' data-hi='{{search_data}}'>搜索</text>
+  </view>
+</template>

@@ -1,0 +1,22 @@
+
+.top_search {
+  height: 80rpx;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top_search input {
+  width: 70%;
+  background: white;
+  border-radius: 30rpx;
+  margin-right: 30rpx;
+  font-size: 29rpx;
+  padding-left: 30rpx;
+}
+
+.top_search text {
+  font-size: 33rpx;
+  color: white
+}

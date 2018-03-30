@@ -1,0 +1,41 @@
+<view class='top_search' bindtap='go_search'>
+  <input placeholder='输入您要查找的菜谱类型'></input>
+  <text>搜索</text>
+</view>
+
+<scroll-view class='classify_scroll' scroll-x='true'>
+  <view wx:for="{{classify_list}}" wx:for-index='idx' class='scroll_item' bindtap='go_detail_classify' data-list='{{item.list}}'>
+    <view>
+      <image src="{{'../../images/classify/'+(idx+1)+'.png'}}"></image>
+      <view>{{item.name}}</view>
+    </view>
+  </view>
+</scroll-view>
+
+
+<!--华丽分割线  -->
+
+<view class='cut'>
+  <view class='line'></view>
+  <view class='circle'></view>
+  <view class='cut_text'>今日推荐</view>
+  <view class='circle'></view>
+  <view class='line'></view>
+</view>
+
+<view class='groom'>
+  <view class='groom_item' wx:for="{{groom_list}}"  data-id='{{item.id}}' bindtap='go_cook'>
+    <view>
+      <image src="{{item.pic}}" mode='widthFix'></image>
+    </view>
+
+    <view class='groom_decrible'>
+      <text class='groom_title'>{{item.name}}</text>
+      <view class='material'>
+        <text class='user_count'>{{item.peoplenum}}</text>
+        <text class='user_count'>{{item.preparetime}}</text>
+        <text class='user_count' wx:for='{{item.tag}}'>{{item}}</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,25 @@
+/* pages/detail_classify/detail_classify.wxss */
+
+.backGround {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 80%;
+}
+
+.classify_detail {
+  border-radius: 50%;
+  width: 175rpx;
+  height: 175rpx;
+  background-color: pink;
+  line-height: 175rpx;
+  text-align: center;
+  color: white;
+  float: left;
+  margin-left: 20rpx;
+  margin-bottom: 20rpx
+}
