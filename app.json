@@ -25,8 +25,13 @@
         "selectedIconPath": "./images/tabbar/tabBar_essence_icon.png"
       },
       {
+<<<<<<< HEAD
         "pagePath": "pages/my_like/my_like",
         "text": "你我他",
+=======
+        "pagePath": "pages/index/index",
+        "text": "我们",
+>>>>>>> ffe5e5de7c8a10fb4ed7fe348fe73c8d009ee6df
         "iconPath": "./images/tabbar/tabBar_friendTrends_click_icon.png",
         "selectedIconPath": "./images/tabbar/tabBar_friendTrends_icon.png"
       }
